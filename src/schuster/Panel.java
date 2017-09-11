@@ -18,7 +18,7 @@ public class Panel extends JPanel{
 		
 		this.p= new Paint();
 		this.setLayout(new BorderLayout());
-		this.s=new JSlider(0,10);
+		this.s=new JSlider(0,10,0);
 		this.textFeld=new JTextField();
 		
 		
